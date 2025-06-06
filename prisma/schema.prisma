@@ -1,0 +1,19 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../node_modules/.prisma/client"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Sku {
+  id                  String   @id @default(uuid())
+  descricao           String
+  descricaoComercial  String
+  codigoSku           String   @unique
+  status              String
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+}
