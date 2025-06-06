@@ -16,7 +16,8 @@ Este projeto é o backend do sistema SKU Manager, responsável por gerenciar SKU
 
 ```npm install
 # ou
-yarn install ```
+yarn install
+```
 
 2. Configure as variáveis de ambiente:  
 Crie um arquivo `.env` na raiz do projeto com as configurações do banco de dados, por exemplo:
@@ -30,13 +31,15 @@ npx prisma migrate dev
 
 4. Gere o client Prisma:
 
-```npx prisma generate ```
+```npx prisma generate 
+```
 
 5. Inicie o servidor de desenvolvimento:
 
 ```npm run start:dev
 # ou
-yarn start:dev ```
+yarn start:dev
+```
 
 O backend estará disponível em http://localhost:4001.
 
@@ -52,11 +55,13 @@ Este projeto usa Prisma para acesso ao banco de dados.
 
 - Rodar migrações e atualizar o banco:
 
-```npx prisma migrate dev```
+```npx prisma migrate dev
+```
 
 - Gerar o client Prisma:
 
-```npx prisma generate```
+```npx prisma generate
+```
 
 ## Scripts úteis
 
@@ -76,7 +81,8 @@ Para rodar os testes:
 
 ```npm run test
 # ou
-yarn test```
+yarn test
+```
 
 ## Deploy
 
