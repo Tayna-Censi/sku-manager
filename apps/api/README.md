@@ -14,7 +14,8 @@ Este projeto é o backend do sistema SKU Manager, responsável por gerenciar SKU
 
 1. Instale as dependências:
 
-```npm install
+```bash
+npm install
 # ou
 yarn install
 ```
@@ -31,12 +32,14 @@ npx prisma migrate dev
 
 4. Gere o client Prisma:
 
-```npx prisma generate 
+```bash
+npx prisma generate 
 ```
 
 5. Inicie o servidor de desenvolvimento:
 
-```npm run start:dev
+```bash
+npm run start:dev
 # ou
 yarn start:dev
 ```
@@ -55,12 +58,14 @@ Este projeto usa Prisma para acesso ao banco de dados.
 
 - Rodar migrações e atualizar o banco:
 
-```npx prisma migrate dev
+```bash
+   npx prisma migrate dev
 ```
 
 - Gerar o client Prisma:
 
-```npx prisma generate
+```bash
+npx prisma generate
 ```
 
 ## Scripts úteis
@@ -79,7 +84,8 @@ Este projeto usa Prisma para acesso ao banco de dados.
 
 Para rodar os testes:
 
-```npm run test
+```bash
+npm run test
 # ou
 yarn test
 ```
